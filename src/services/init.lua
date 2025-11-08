@@ -1,4 +1,4 @@
-local operations = require("src.services.todo_service")
+local operations = require("src.services.operations")
 local io_service = require("src.services.io_service")
 
 local services = {

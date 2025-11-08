@@ -2,7 +2,7 @@ local operations = {
     todos = {}
 }
 
-function operations:create_todo(name)
+function operations:_create_todo(name)
     -- Check if todo already exists
     if self.todos[name] then
         return false
